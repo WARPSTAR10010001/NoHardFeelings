@@ -7,4 +7,9 @@ public class Figure {
     private int figureNum;
     //Checks if figure placed
     private boolean placed = false;
+
+    public Figure(int team, int figureNum){
+        this.team = team;
+        this.figureNum = figureNum;
+    }
 }

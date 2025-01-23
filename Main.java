@@ -16,6 +16,7 @@ public class Main {
         System.out.println("Build: " + BUILD + " / Last Updated: " + LASTUPDATE);
         System.out.println(DIVIDER);
 
+        Field.print();
         start();
     }
 
